@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="webfonts">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+   
+<nav class=" position-fixed bg-black ">
+    <div class="first position-fixed justify-content-end flex-column text-center  bg-white ">
+        <div class="image  ">
+        </div>
+        <div class="icon">
+            <i id="lineTwo" class="fa line fa-align-justify"></i>
+            <i id="lineone" class="fa d-none line fa-align-justify fa-times"></i>
+        </div>
+       
+    </div>
+    <div class="second w-25 position-fixed   flex-column ">
+        <ul>
+            <li  class="my-4"><a class="text-white " id="navSearch" href="#">Search</a></li>
+            <li  class="my-4"><a class="text-white " id="navCategories" href="#">Categories</a></li>
+            <li  class="my-4"><a class="text-white " id="navArea" href="#">Area</a></li>
+            <li  class="my-4"><a class="text-white " id="navIngredients" href="#">Ingredients</a></li>
+            <li  class="my-4"><a class="text-white " id="navContact" href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="icon ms-3 position-absolute  ">
+            <i class="fab mx-2 fa-facebook-f"></i>
+            <i class="fab  mx-2 fa-twitter"></i>
+            <i class="fas  mx-2 fa-globe"></i>
+            <p class="lead mt-3"> Copyright Â© 2019 All Rights Reserved.</p>
+            
+        </div> 
+        
+    </div>
+   
+</nav>
+  
+
+    <section id="Home" class="Home m-auto mt-3 ">
+        <div class="container main-page ">
+            <div id="rowData" class="row ">
+             
+              
+               
+            </div>
+        </div>
+
+<div class="Instructions">
+    <div id="Instructions" class="container  d-none">
+       
+    </div>
+</div>
+
+
+
+
+    </section>
+    
+
+    <section id="second-Search" class="second-Search d-none  ">
+        <div class="container">
+            <div class="row  ">
+                <div class="col-md-6 mt-4 ">
+                    <input class="form-control w-100 text-center  " type="text"  id="search" placeholder="search By Name...">
+                </div>
+                <div class="col-md-6 mt-4 ">
+                    <input class="form-control w-100 text-center" type="text" maxlength="1"  id="letter" placeholder="search By First Letter...">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="addSearch" class="row addSearch mt-5 pt-3">
+               
+            </div>
+        </div>
+       
+
+    </section>
+    <div class="container">
+        <div id="SearchChange" class="row  d-none  offset-1 ">
+        </div>
+    </div>
+
+        
+
+        <section id="Categories" class="Categories d-none mt-  ">
+            <div class="container">
+                <div id="displaycategory" class="row  addSearch  ">
+            <div class="col-lg-3 col-md-6">
+                 <div class="item text-center rounded-2 Catshado bg-danger mt-5">
+                     <img class="w-75 py-3  rounded-2" src="image/58oia61564916529.jpg" alt="">
+                     <div class="caotion rounded-2 ">
+                         <h1 class="ms-2 text-black">Corba </h1>
+                         <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto.</p>
+                         </div>
+                 </div>
+            
+                </div>
+            </div>
+</div>
+
+        </section >
+        <div class="container">
+            <div id="CategorieschChang" class="row  d-none  offset-1 ">
+            </div>
+        </div>
+        <div class="container">
+            <div id="CategorieschChangOne" class="row  d-none  offset-1 ">
+                <p>kliji</p>
+            </div>
+        </div>
+       
+
+
+        <section id="area" class="d-none mt-3  ">
+    <div class="container">
+        <div id="AreaDisplay" class="row addSearch offset-1 ">
+        
+        </div>
+        <div class="container">
+            <div id="areaChang" class="row Ingredients d-none offset-1 ">
+            </div>
+        </div>
+        <div class="container">
+            <div id="areaChangOne" class="row Ingredients d-none offset-1 ">
+            </div>
+        </div>
+    </div>
+
+        </section>
+      
+
+
+
+        <section id="Ingredients" class="d-none  pt-5 mt-5">
+    <div class="container">
+        <div id="IngredientsDisplay" class="row Ingredients offset-1 ">
+        </div>
+    </div>
+    <div class="container">
+        <div id="IngredChang" class="row Ingredients d-none offset-1 ">
+        
+        </div>
+    </div>
+    <div class="container">
+        <div id="IngredChangOne" class="row  d-none offset-1 ">
+        <p>sxkspo</p>
+        </div>
+    </div>
+   
+
+        </section>
+        
+
+
+        <section id="contact" class=" d-flex d-none  Contact justify-content-center align-items-center text-center ">
+            <div class="container ">
+                                <h2 class="text-light mb-5">ContacUs...</h2>
+
+                <div class="row">
+   <div class="col-md-6 colorGreen colorRed py-2 ">
+                        <div class="form-group">
+                            <input class="form-control userOne shadow p is-valid"  id="name" placeholder="Enter Your Name">
+                            <div class="alert mt-1 alert-danger d-none" id="namealert" role="alert">
+                                Special Characters and Numbers not allowed
+                            </div>
+                        </div>
+                        <div class="icon">
+ <i  class="fa-solid d-none checkOne fa-check"></i>
+<i class="fa-solid  d-none xmarkOne fa-xmark"></i>
+
+                        </div>
+
+     </div>
+                   
+<div class="col-md-6 colorGreen colorRed py-2">
+    <div class="form-group">
+        <input  class="form-control userTow is-valid" id="email" placeholder="Enter Email">
+        <div class="alert mt-1 alert-danger d-none" id="emailalert" role="alert">
+            <!-- Enter valid email. *Ex: xxx@yyy.zzz -->
+        </div>
+    </div>
+    <div class="icon">
+        <i class="fa-solid d-none checkTwo fa-check"></i>
+        <i class="fa-solid d-none  xmarkTwo fa-xmark"></i>
+    
+    </div>
+</div>
+
+<div class="col-md-6 colorGreen colorRed py-2">
+    <div class="form-group">
+        <input  class="form-control userthree is-valid" id="phone" placeholder="Enter phone">
+        <div class="alert mt-1  alert-danger d-none" id="phonealert" role="alert">
+          
+        </div>
+    </div>
+    <div class="icon">
+        <i class="fa-solid d-none checkthree fa-check"></i>
+        <i class="fa-solid d-none  xmarkthree fa-xmark"></i>
+    
+    </div>
+</div>
+<div class="col-md-6 colorGreen colorRed py-2">
+    <div class="form-group">
+        <input  class="form-control userfour is-valid" id="age" placeholder="Enter Age">
+        <div class="alertAge mt-1 alert-danger d-none" id="agealert" role="alert">
+        </div>
+    </div>
+    <div class="icon">
+        <i class="fa-solid d-none checkfour fa-check"></i>
+        <i class="fa-solid d-none  xmarkfour fa-xmark"></i>
+    
+    </div>
+</div>
+
+<div class="col-md-6 colorGreen colorRed py-2">
+    <div class="form-group">
+        <input  class="form-control userFive is-valid" type="password" id="password"
+            placeholder="Enter Password">
+        <div class="alert mt-1 alert-danger d-none" id="passwordalert" role="alert">
+        </div>
+    </div>
+    <div class="icon">
+        <i class="fa-solid d-none checkfive fa-check"></i>
+        <i class="fa-solid d-none  xmarkfive fa-xmark"></i>
+    
+    </div>
+</div>
+  <div class="col-md-6 colorGreen colorRed py-2">
+                        <div class="form-group">
+                            <input  class="form-control usersix is-valid" type="password" id="rePassword"
+                                placeholder="Enter RePassword">
+                            <div class="alert mt-1 alert-danger d-none" id="repasswordalert" role="alert">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid d-none  checksix fa-check"></i>
+                            <i class="fa-solid  d-none xmarksix fa-xmark"></i>
+                        
+                        </div>
+  </div>
+    </div>
+                
+
+<div class="btnn mt-5">
+    <button type="submit" id="submitBtn" class="btn btn-outline-danger">Submit</button>
+
+</div>
+
+
+            </div>
+
+        </section>
+        
+
+    
+
+
+<script src="jQuery/jquery-3.6.1.min.js"></script>
+<script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,292 @@
+*{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #000000f2;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+/* strat nav  */
+nav{
+    width: 250px;
+    height: 100%;
+    z-index: 9999999999999999;
+    left: -250px;
+}
+nav .second{
+top: 0;
+z-index: 9999999;
+
+}
+
+nav .second ul li a{
+    font-size: 18px;
+}
+nav .second .icon{
+    cursor: pointer;
+    bottom: -350px;
+    width: 50%;    
+}
+ nav .first {
+   top: 0;
+   width: 60px;
+   height: 100%;
+   left: 0px;
+   z-index: 9999;
+background-color: #f8f6f6;
+}
+nav .icon{
+    bottom: 70px;
+}
+nav .icon p{
+    color: #999;
+}
+nav .first .icon .line  {
+        position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 22px;
+            cursor: pointer;
+}
+nav .first .social  {
+        position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 11;
+            cursor: pointer;
+}
+
+.Home{
+    width: 80%;
+    
+}
+.Home img{
+cursor: pointer;    
+}
+ .item{
+     position: relative;
+        overflow: hidden;
+        cursor: pointer;
+}
+ .caotion{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition:all 0.7s ease-in-out ;
+    background-color: rgba(255, 255, 255, .7);
+    -webkit-transition:all 0.7s ease-in-out ;
+    -moz-transition:all 0.7s ease-in-out ;
+    -ms-transition:all 0.7s ease-in-out ;
+    -o-transition:all 0.7s ease-in-out ;
+}
+ .item:hover .caotion {
+top: 0;
+}
+
+.alert-success{
+        color: #155724;
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+}
+.youtube{
+    background-color: #F70000;
+}
+
+.second-Search{
+    width: 70%;
+    margin: auto;
+}
+.second-Search .form-control{
+    background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .7);
+        border-radius: 0;
+        color: #fff;
+        font-weight: 800;
+    }
+.alert-danger{
+        color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+}
+
+.Categories .Catshado{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    overflow: hidden;
+}
+.Categories .item {
+     position: relative;
+     overflow: hidden;
+     cursor: pointer;
+ }
+
+.addSearch .caotion {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 100%;
+     justify-content: center;
+     transition: all 0.7s ease-in-out;
+     background-color: rgba(255, 255, 255, .7);
+ }
+ .item:hover .caotion {
+     top: 0;
+ }
+
+
+#Area .item{
+        box-shadow: 0 .7rem 0.3rem rgba(0, 0, 0, 0.5) !important;
+}
+
+.Ingredients .icons{
+color: #9ee650ab;
+}
+.Ingredients .item{
+        box-shadow: 0 .7rem 0.3rem rgba(0, 0, 0, 0.5) !important;
+}
+
+.Contact{
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+
+}
+
+.Contact .form-control.is-valid{
+   
+        padding-right: 2.25rem;
+        background-repeat: no-repeat;
+        background-position: center right calc(2.25rem / 4);
+        background-size: calc(2.25rem / 2) calc(2.25rem / 2);
+        background-image: url(../);
+
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.Contact .form-control{
+    background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .7);
+        
+        border-radius: 0;
+        color: #fff;
+        font-weight: 800;
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+} 
+#contact input {
+    box-shadow: 0 .7rem 0.3rem rgba(255, 255, 255, .1) !important;
+}
+.Contact .icon{
+    position: relative;
+    right: 0;
+}
+.Contact .checkOne{
+    color: #28a745;
+    position: absolute;
+        right: 5px;
+        top: -20px;
+}
+.Contact .xmarkOne{
+    color: #dc3545;
+    position: absolute;
+    top: -100px;
+    right: 15px;
+       
+    
+}
+.Contact .checkTwo{
+    color: #28a745;
+    position: absolute;
+        right: 5px;
+        top: -20px;
+}
+.Contact .xmarkTwo{
+    color: #dc3545;
+    position: absolute;
+        top: -100px;
+            right: 15px;
+    
+}
+.Contact .checkthree{
+    color: #28a745;
+    position: absolute;
+        right: 5px;
+        top: -20px;
+}
+.Contact .xmarkthree{
+    color: #dc3545;
+    position: absolute;
+    top: -100px;
+        right: 15px;
+    
+}
+.Contact .checkfour{
+    color: #28a745;
+    position: absolute;
+        right: 5px;
+        top: -20px;
+}
+.Contact .xmarkfour{
+    color: #dc3545;
+    position: absolute;
+        top: -50px;
+            right: 15px;
+    
+}
+.Contact .checkfive{
+    color: #28a745;
+    position: absolute;
+        right: 5px;
+        top: -20px;
+}
+.Contact .xmarkfive{
+    color: #dc3545;
+    position: absolute;
+    top: -120px;
+        right: 15px;
+    
+}
+.Contact .checksix{
+    color: #28a745;
+    position: absolute;
+        right: 5px;
+        top: -20px;
+}
+.Contact .xmarksix{
+    color: #dc3545;
+    position: absolute;
+        top: -100px;
+            right: 15px;
+    
+}
+.Contact .check{
+    color: #28a745;
+    position: absolute;
+        right: 5px;
+        top: -20px;
+}
+.Contact .xmark{
+    color: #dc3545;
+    position: absolute;
+        right: 5px;
+        top: -20px;
+    
+}
+
